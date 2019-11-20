@@ -2,17 +2,17 @@
      
      $('.responsive').slick({
               mobileFirst: true,
-              infinite: false,
-                dots: true,
-                arrows: false,
-                variableWidth: true,
-                responsive: [
-                {
-                    breakpoint: 768,
-                    settings: 'unslick'
-                }
-                ]
-            });
+    infinite: false,
+    dots: true,
+    arrows: false,
+    variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: 'unslick'
+      }
+    ]
+  });
             
 
             
